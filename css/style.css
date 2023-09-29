@@ -8,20 +8,20 @@
 }
 
 #header {
-    height: 100%;
-    height: 110px;
+    width: 100%;
+    height: 10.19vh;
     display: flex;
 }
 
 .nav {
     display: inline-block;
-    margin-left: 370px;
-    margin-top: 48px;
+    margin-left: 12vw;
+    margin-top: 3.98vh;
 }
 
 .nav ul li {
     display: inline-block;
-    padding-left: 25px;
+    padding-left: 1.30vw;
     font-size: 17px;
 }
 
@@ -31,8 +31,8 @@
 }
 
 .logo {
-    margin-top: 32px;
-    margin-left: 87px;
+    margin-top: 2.96vh;
+    margin-left: 4.53vw;
 }
 
 .info {
@@ -41,13 +41,13 @@
 
 .info ul {
     display: flex;
-    margin-top: 38px;
-    margin-left: 83px;
+    margin-top: 3.52vh;
+    margin-left: 4.32vw;
 }
 
 .info ul li #loginBtn {
-    width: 110px;
-    height: 40px;
+    width: 5.73vw;
+    height: 3.7vh;
     background-color: #ffffff;
     border-style: solid;
     border-radius: 25px;
@@ -55,47 +55,52 @@
     color: #252348;
     font-size: 13px;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 1.04vw;
 }
 
 .info ul li #joinusBtn {
-    width: 110px;
-    height: 40px;
+    width: 5.73vw;
+    height: 3.7vh;
     background-color: #252348;
     border-radius: 25px;
     border-style: solid;
     font-size: 13px;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 1.04vw;
     color: #ffffff;
     border-color: #252348;
 }
 
-.info ul li #userBtn,
-#searhBtn {
-    margin-top: 5px;
-    margin-right: 20px;
+.info ul li #userBtn, #searhBtn {
+    margin-top: 0.46vh;
+    margin-right: 1.04vw;
 }
 
 .info .line {
-    margin-top: 27px;
+    margin-top: 2.5vh;
     border-left: 2.0px solid #919191;
-    height: 60px;
+    height: 5.56vh;
 }
 
 .memberBtn .member{
-    margin-top: 30px;
-    margin-left: 55px;
+    margin-top: 2.78vh;
+    margin-left: 2.86vw;
     width: 23px;
-    height: 29px;
+    height: 32px;
 }
 
 .memberBtn p{
     size: 9px;
-    margin-left: 35px;
-    padding-top: 4px;
+    margin-left: 1.82vw;
+    padding-top: 0.37vh;
 }
 
 .slideshow-container{
-    
+    width: 100%;
+    height: 50.74vh;
+}
+.slideshow-container .slideshow-background{
+    width: 100%;
+    height: 33.7vh;
+    background-color: #252348;
 }
