@@ -8,7 +8,7 @@
 }
 
 #header {
-    width: 100%;
+    width: 100vw;
     height: 10.19vh;
     display: flex;
 }
@@ -22,7 +22,7 @@
 .nav ul li {
     display: inline-block;
     padding-left: 1.30vw;
-    font-size: 17px;
+    font-size: 1.063rem;
 }
 
 .nav ul li a {
@@ -53,7 +53,7 @@
     border-radius: 25px;
     border-color: #252348;
     color: #252348;
-    font-size: 13px;
+    font-size: 0.813rem;
     font-weight: bold;
     margin-right: 1.04vw;
 }
@@ -64,7 +64,7 @@
     background-color: #252348;
     border-radius: 25px;
     border-style: solid;
-    font-size: 13px;
+    font-size: 0.813rem;
     font-weight: bold;
     margin-right: 1.04vw;
     color: #ffffff;
@@ -123,12 +123,14 @@
 
 .slideBtn-Box {
     position: absolute;
-    left: 50%;
+    width: 100%;
+    height: auto;
+    left:  51%;
     transform: translateX(-50%);
     margin-top: 60px;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 .slideBtn {
@@ -140,6 +142,52 @@
     border-radius: 50%;
     cursor: pointer;
 } 
+.slideBtn:hover{
+    background-color: #8A8A8A;
+}
 .slideBtn.active{
     background-color: #8A8A8A;
+}
+.mdPick{
+    margin-top: 18.8vh;
+}
+.mdPick h1{
+    /* font-size: 2.063rem; */
+    font-size: 33px;
+    text-align: center;
+    color: #252348;
+}
+.mdPickHr{
+    height: 0.28vh;
+    /* width: 9.38vw; */
+    width: 180px;
+    background-color: #2A284E;
+    margin: 1.85vh auto ;
+}
+.mdPick-item{
+    text-align: center;
+    margin-top: 6.02vh;
+}
+.item{
+    margin-left: 1.04vw;
+    display: inline-block;
+}
+.mdPick-item img{
+    width: 14.58vw;
+    height: 29.63vh;
+}
+.mdPick-item .item p{
+    text-align: left;
+}
+.mdPick-item .item p:first-of-type{
+    font-size: 0.8125rem;
+    margin-top: 1.76vh;
+    color: #5A5A5A;
+    font-weight: 600;
+}
+.mdPick-item .item p:last-of-type{
+    font-size: 0.9375rem;
+    margin-top: 0.35vh;
+    color: #2D2D2D;
+    font-weight: 700;
 }
