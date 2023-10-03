@@ -123,3 +123,32 @@ itemElements.forEach((item) => {
         }
     });
 });
+
+// 이미지 스크롤 컨테이너와 이미지 배열을 가져옵니다.
+const scrollContainer = document.getElementById('scrollContainer');
+const images = scrollContainer.querySelectorAll('img');
+
+// 이미지를 무한히 스크롤하기 위한 변수들을 설정합니다.
+let currentIndex = 0;
+const scrollSpeed = 1; // 스크롤 속도 (수정 가능)
+
+// 이미지를 무한히 스크롤하는 함수를 정의합니다.
+function scrollImages() {
+    currentIndex += scrollSpeed;
+    if (currentIndex >= images.length) {
+        currentIndex = 0;
+    }
+    
+    const translateX = -currentIndex * images[0].width;
+    scrollContainer.style.transform = `translateX(${translateX}px)`;
+
+    // requestAnimationFrame을 사용하여 부드러운 애니메이션을 만듭니다.
+    requestAnimationFrame(scrollImages);
+}
+
+// 페이지가 로드되면 이미지 스크롤을 시작합니다.
+window.addEventListener('load', () => {
+    scrollImages();
+});
+
+
