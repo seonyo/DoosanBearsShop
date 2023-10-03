@@ -1,193 +1,268 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: black;
-    list-style: none;
-    font-family: 'Pretendard-Regular';
-}
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Serif+KR:wght@700&display=swap');
 
-#header {
-    width: 100vw;
-    height: 10.19vh;
-    display: flex;
-}
+  * {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      color: black;
+      list-style: none;
+      font-family: 'Noto Sans KR', sans-serif;
+  }
 
-.nav {
-    display: inline-block;
-    margin-left: 12vw;
-    margin-top: 3.98vh;
-}
+  #header {
+      width: 100vw;
+      height: 10.19vh;
+      display: flex;
+  }
 
-.nav ul li {
-    display: inline-block;
-    padding-left: 1.30vw;
-    font-size: 1.063rem;
-}
+  .nav {
+      display: inline-block;
+      margin-left: 12vw;
+      margin-top: 3.98vh;
+  }
 
-.nav ul li a {
-    color: #252348;
-    font-weight: bold;
-}
+  .nav ul li {
+      display: inline-block;
+      padding-left: 1.30vw;
+      font-size: 1.063rem;
+  }
 
-.logo {
-    margin-top: 2.96vh;
-    margin-left: 4.53vw;
-}
+  .nav ul li a {
+      color: #252348;
+      font-weight: bold;
+  }
 
-.info {
-    display: flex;
-}
+  .logo {
+      margin-top: 2.96vh;
+      margin-left: 4.53vw;
+  }
 
-.info ul {
-    display: flex;
-    margin-top: 3.52vh;
-    margin-left: 4.32vw;
-}
+  .info {
+      display: flex;
+  }
 
-.info ul li #loginBtn {
-    width: 5.73vw;
-    height: 3.7vh;
-    background-color: #ffffff;
-    border-style: solid;
-    border-radius: 25px;
-    border-color: #252348;
-    color: #252348;
-    font-size: 0.813rem;
-    font-weight: bold;
-    margin-right: 1.04vw;
-}
+  .info ul {
+      display: flex;
+      margin-top: 3.52vh;
+      margin-left: 4.32vw;
+  }
 
-.info ul li #joinusBtn {
-    width: 5.73vw;
-    height: 3.7vh;
-    background-color: #252348;
-    border-radius: 25px;
-    border-style: solid;
-    font-size: 0.813rem;
-    font-weight: bold;
-    margin-right: 1.04vw;
-    color: #ffffff;
-    border-color: #252348;
-}
+  .info ul li #loginBtn {
+      width: 5.73vw;
+      height: 3.7vh;
+      background-color: #ffffff;
+      border-style: solid;
+      border-radius: 25px;
+      border-color: #252348;
+      color: #252348;
+      font-size: 0.813rem;
+      font-weight: bold;
+      margin-right: 1.04vw;
+  }
 
-.info ul li #userBtn,
-#searhBtn {
-    margin-top: 0.46vh;
-    margin-right: 1.04vw;
-}
+  .info ul li #joinusBtn {
+      width: 5.73vw;
+      height: 3.7vh;
+      background-color: #252348;
+      border-radius: 25px;
+      border-style: solid;
+      font-size: 0.813rem;
+      font-weight: bold;
+      margin-right: 1.04vw;
+      color: #ffffff;
+      border-color: #252348;
+  }
 
-.info .line {
-    margin-top: 2.5vh;
-    border-left: 2.0px solid #919191;
-    height: 5.56vh;
-}
+  .info ul li #userBtn,
+  #searhBtn {
+      margin-top: 0.46vh;
+      margin-right: 1.04vw;
+  }
 
-.memberBtn .member {
-    margin-top: 2.78vh;
-    margin-left: 2.86vw;
-    width: 23px;
-    height: 32px;
-}
+  .info .line {
+      margin-top: 2.5vh;
+      border-left: 2.0px solid #919191;
+      height: 5.56vh;
+  }
 
-.memberBtn p {
-    size: 9px;
-    margin-left: 1.82vw;
-    padding-top: 0.37vh;
-}
+  .memberBtn .member {
+      margin-top: 2.78vh;
+      margin-left: 2.86vw;
+      width: 23px;
+      height: 32px;
+  }
 
-.slideshow-container {
-    position: relative;
-    width: 100%;
-    height: 45vh;
-}
+  .memberBtn p {
+      size: 9px;
+      margin-left: 1.82vw;
+      padding-top: 0.37vh;
+  }
 
-.slideshow-container .slideshow-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 33.7vh;
-    background-color: #252348;
-}
+  .slideshow-container {
+      position: relative;
+      width: 100%;
+      height: 45vh;
+  }
 
-.slide {
-    width: 64.46vw;
-    height: 39.54vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: 3.70vh;
-    transform: translate(-50%, -50%);
-}
+  .slideshow-container .slideshow-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 33.7vh;
+      background-color: #252348;
+  }
 
-.slideBtn-Box {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    left:  51%;
-    transform: translateX(-50%);
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  .slide {
+      width: 64.46vw;
+      height: 39.54vh;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: 3.70vh;
+      transform: translate(-50%, -50%);
+  }
 
-.slideBtn {
-    width: 15px;
-    height: 15px;
-    margin-right: 1.20vw;
-    background-color: #D9D9D9;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-} 
-.slideBtn:hover{
-    background-color: #8A8A8A;
-}
-.slideBtn.active{
-    background-color: #8A8A8A;
-}
-.mdPick{
-    margin-top: 18.8vh;
-}
-.mdPick h1{
-    /* font-size: 2.063rem; */
-    font-size: 33px;
-    text-align: center;
-    color: #252348;
-}
-.mdPickHr{
-    height: 0.28vh;
-    /* width: 9.38vw; */
-    width: 180px;
-    background-color: #2A284E;
-    margin: 1.85vh auto ;
-}
-.mdPick-item{
-    text-align: center;
-    margin-top: 6.02vh;
-}
-.item{
-    margin-left: 1.04vw;
-    display: inline-block;
-}
-.mdPick-item img{
-    width: 14.58vw;
-    height: 29.63vh;
-}
-.mdPick-item .item p{
-    text-align: left;
-}
-.mdPick-item .item p:first-of-type{
-    font-size: 0.8125rem;
-    margin-top: 1.76vh;
-    color: #5A5A5A;
-    font-weight: 600;
-}
-.mdPick-item .item p:last-of-type{
-    font-size: 0.9375rem;
-    margin-top: 0.35vh;
-    color: #2D2D2D;
-    font-weight: 700;
-}
+  .slideBtn-Box {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      left: 51%;
+      transform: translateX(-50%);
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .slideBtn {
+      width: 15px;
+      height: 15px;
+      margin-right: 1.20vw;
+      background-color: #D9D9D9;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+
+  .slideBtn:hover {
+      background-color: #8A8A8A;
+  }
+
+  .slideBtn.active {
+      background-color: #8A8A8A;
+  }
+
+  .mdPick {
+      margin-top: 18.8vh;
+  }
+
+  .mdPick h1 {
+      /* font-size: 2.063rem; */
+      font-size: 33px;
+      text-align: center;
+      color: #252348;
+      font-weight: 600;
+  }
+
+  .mdPickHr {
+      height: 0.28vh;
+      /* width: 9.38vw; */
+      width: 180px;
+      background-color: #2A284E;
+      margin: 1.85vh auto;
+  }
+
+  .mdPick-item,
+  .newGoods-item {
+      text-align: center;
+      margin-top: 6.02vh;
+  }
+
+  .item {
+      margin-left: 1.04vw;
+      display: inline-block;
+  }
+
+  .item p {
+      width: 14.56vw;
+      white-space: pre-wrap;
+  }
+
+  .mdPick-item img,
+  .newGoods-item img {
+      width: 14.58vw;
+      height: 29.63vh;
+  }
+
+  .mdPick-item .item p,
+  .newGoods-item .item p {
+      text-align: left;
+  }
+
+  .mdPick-item .item p:first-of-type {
+      font-size: 0.8125rem;
+      margin-top: 1.76vh;
+      color: #5A5A5A;
+      font-weight: 500;
+  }
+
+  .mdPick-item .item p:last-of-type {
+      font-size: 0.9375rem;
+      margin-top: 0.35vh;
+      color: #2D2D2D;
+      font-weight: 600;
+  }
+
+  .newGoodsBackground {
+      height: 155vh;
+      width: 100%;
+      background-color: #252348;
+  }
+
+  .newGoods {
+      margin-top: 9.26vh;
+      width: 100%;
+  }
+
+  .newGoods h1 {
+      padding-top: 11.39vh;
+      color: #ffffff;
+      font-size: 33px;
+      text-align: center;
+      font-weight: 600;
+  }
+
+  .newGoodsHr {
+      height: 0.28vh;
+      /* width: 9.38vw; */
+      width: 180px;
+      background-color: #ffffff;
+      margin: 1.85vh auto;
+  }
+
+  .newGoods-item .item p:first-of-type {
+      font-size: 0.8125rem;
+      margin-top: 1.76vh;
+      color: #ffffff;
+      font-weight: 500;
+  }
+
+  .newGoods-item .item p:last-of-type {
+      font-size: 0.9375rem;
+      margin-top: 0.35vh;
+      color: #ffffff;
+      font-weight: 600;
+  }
+
+  .history {
+      width: 100%;
+      height: 116.3vh;
+  }
+
+  .titleHis p {
+      margin-top: 12vh;
+      font-size: 2.375rem;
+      margin-left: 19.22vw;
+      font-weight: 900;
+  }

@@ -107,3 +107,19 @@ document.addEventListener("DOMContentLoaded", function() {
     // 스크롤 이벤트 리스너를 등록하여 스크롤 시 handleScroll 함수를 실행합니다.
     window.addEventListener('scroll', handleScroll);
 });
+
+// 모든 .item 요소를 선택합니다.
+const itemElements = document.querySelectorAll('.item');
+
+// 각 .item 요소에 대해서 처리합니다.
+itemElements.forEach((item) => {
+    const pElements = item.querySelectorAll('p'); // .item 내의 모든 p 태그를 선택합니다.
+
+    pElements.forEach((p) => {
+        const text = p.innerText; // 현재 p 태그의 텍스트 내용을 가져옵니다.
+        if (text.length > 23) { // 텍스트 길이가 23보다 길 경우
+            const truncatedText = text.substring(0, 23) + '...'; // 23글자 이후를 "..."으로 대체합니다.
+            p.innerText = truncatedText; // 새로운 텍스트로 대체합니다.
+        }
+    });
+});
