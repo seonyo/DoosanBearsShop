@@ -17,8 +17,8 @@
 
 .nav {
     display: inline-block;
-    margin-left: 12vw;
-    margin-top: 3.98vh;
+    margin-left: 14vw;
+    margin-top: 4.44vh;
 }
 
 .nav ul li {
@@ -34,6 +34,7 @@
 
 .logo {
     margin-top: 2.96vh;
+    text-align: center;
     margin-left: 4.53vw;
 }
 .info {
