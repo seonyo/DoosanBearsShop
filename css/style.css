@@ -6,7 +6,7 @@
 .slideshow-container {
     position: relative;
     width: 100%;
-    height: 45vh;
+    height: 49vh;
 }
 
 .slideshow-container .slideshow-background {
@@ -192,6 +192,8 @@
 }
 
 .historyMain{
+    width: 30.21vw;
+    height: 34.44vh;
     margin-top: 4.17vh;
     margin-left: 19.22vw;
 }
@@ -204,8 +206,14 @@
     line-height: 6.02vh;
 }
 .historyScroll {
-    width: max-content; /* 모든 이미지를 가로로 나열하기 위해 필요 */
-    white-space: nowrap; /* 이미지를 가로로 나열합니다. */
+    margin-top: 7.04vh;
+    width: 100%;
+    overflow: scroll; 
+    white-space: nowrap;
+}
+
+.historyScroll::-webkit-scrollbar{
+    display: none;
 }
 
 .historyScroll img {

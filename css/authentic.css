@@ -5,8 +5,8 @@
     color: #252348;
 }
 .option{
-    text-align: center;
     margin-top: 2.78vh;
+    margin-left: 19.27vw;
 }
 .buttonItem{
     width: 14.58vw;
@@ -16,4 +16,40 @@
     background-color: #ffffff;
     border: 1px solid #000000;
     color: #000000;
+}
+
+.authenticItem{
+    margin-top: 13.15vh;
+    margin-left: 19.27vw;
+}
+.authentic-Item{
+    display: flex;
+    margin-bottom: 5.56vh;
+}
+.item{
+    margin-right: 1.15vw;
+}
+.item img{
+    border: 0.5px solid #cccccc;
+    width: 14.58vw;
+    height: 29.63vh;
+}
+
+.item p {
+    width: 14.56vw;
+    white-space: pre-wrap;
+}
+
+.authentic-Item .item p:first-of-type {
+    font-size: 0.8125rem;
+    margin-top: 1.76vh;
+    color: #5A5A5A;
+    font-weight: 500;
+}
+
+.authentic-Item .item p:last-of-type {
+    font-size: 0.9375rem;
+    margin-top: 0.35vh;
+    color: #2D2D2D;
+    font-weight: 600;
 }
