@@ -1,0 +1,46 @@
+.login {
+    margin-top: 9.26vh;
+}
+
+.login h1 {
+    text-align: center;
+    font-size: 2.81rem;
+    color: #252348;
+}
+
+.loginMain , .pwBox{
+    text-align: center;
+}
+
+.loginMain{
+    margin-top : 8.8vh;
+}
+
+.pwBox{
+    margin-top: 2.96vh;
+}
+
+.loginMain input, .pwBox input{
+    height: 5.48vh;
+    width: 36.46vw;
+    background-color: #EAEAEA;
+    color: #676767;
+    border: none;
+}
+
+input::-webkit-input-placeholder { 
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.resultBtn{
+    margin-top : 2.34vh;
+}
+.resultBtn button{
+    width: 36.46vw;
+    height: 6.2vh;
+    background-color: #252348;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+}
