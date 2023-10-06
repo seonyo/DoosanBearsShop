@@ -1,0 +1,100 @@
+#info{
+    display: flex;
+}
+
+#mainImg{
+    margin-top: 9.07vh;
+    margin-left: 23.02vw;
+}
+
+#mainImg img {
+    width: 19.79vw;
+    height: 40.46vh;
+    border: 0.5px solid #CCCCCC;
+}
+
+.productInfo{
+    margin-top: 9.07vh;
+    margin-left: 7.6vw;
+}
+
+#productMain{
+    display: flex;
+}
+
+.productInfo #productName{
+    font-size: 1.43rem;
+    font-weight: 400;
+}
+#productMain #heart{
+    margin-left: 13.23vw;
+}
+
+#price{
+    margin-top: 1.57vh;
+    font-size: 1.56rem;
+    font-weight: 800;
+}
+
+.option{
+    display: flex;
+    margin-top: 3.06vh;
+}
+
+tr{
+    height: 5.5vh;
+}
+
+.markingName{
+    font-size: 1.12rem;
+    color: #828282;
+    margin-top: 0.57vh;
+    width: 5.3vw;
+}
+
+.select{
+    width: 25vw;
+    height: 4.17vh;
+    font-size: 0.93rem;
+    border-radius: 5px;
+    text-align-last: center;
+    -webkit-appearance:none;
+    -moz-appearance:none; 
+    appearance:none;
+    border: 0.8px solid #868686;
+}
+
+#markingContent{
+    margin-top: 1vh;
+    color: #D52727;
+    font-size: 0.81rem;
+}
+
+.inputBox{
+    width: 25vw;
+    height: 4.17vh;
+    border-radius: 5px;
+    border: 0.8px solid #868686;
+}
+
+.resultBtn{
+    margin-top: 3.15vh;
+}
+
+#buy{
+    width: 15.1vw;
+    height: 4.5vh;
+    color: white;
+    background-color: #252348;
+    border: none;
+    font-size: 0.9rem;
+}
+
+#bucket{
+    width: 15.1vw;
+    height: 4.5vh;
+    background-color: #ffffff;
+    border: none;
+    font-size: 0.9rem;
+    border: 1px solid #252348;
+}

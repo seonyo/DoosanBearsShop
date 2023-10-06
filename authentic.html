@@ -7,6 +7,8 @@
     <title>두산베어스샵</title>
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/authentic.css">
+    <script src="script/script.js"></script>
+
 </head>
 
 <body>
@@ -14,7 +16,7 @@
     <div id="header">
         <div class="nav">
             <ul>
-                <li><a href="#">어센틱</a></li>
+                <li><a href="./authentic.html">어센틱</a></li>
                 <li><a href="#" style="color: #5C5C5C;">FILA 패션</a></li>
                 <li><a href="#" style="color: #5C5C5C;">의류</a></li>
                 <li><a href="#" style="color: #5C5C5C;">모자</a></li>
@@ -48,10 +50,11 @@
     </div>
     <div class="authenticItem">
         <div class="authentic-Item">
-            <div class="item">
+            <!-- onclick="moveToInfo(1) -->
+            <div class="item" onclick="location.href='productInfo.html'">
                 <img src="img/autehntic/해피유니폼.jpg">
-                <p>두산베어스 어센틱 해피 유니폼</p>
-                <p>90,000원</p>
+                <p id="name">두산베어스 어센틱 해피 유니폼</p>
+                <p id="price">90,000원</p>
             </div>
             <div class="item">
                 <img src="img/autehntic/어센틱 해피 캡.jpg">

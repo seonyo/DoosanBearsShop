@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>두산베어스샵</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/info.css">
+
+</head>
+
+<body>
+    <!--header-->
+    <div id="header">
+        <div class="nav">
+            <ul>
+                <li><a href="./authentic.html">어센틱</a></li>
+                <li><a href="#" style="color: #5C5C5C;">FILA 패션</a></li>
+                <li><a href="#" style="color: #5C5C5C;">의류</a></li>
+                <li><a href="#" style="color: #5C5C5C;">모자</a></li>
+                <li><a href="#" style="color: #5C5C5C;">잡화 및 기타</a></li>
+                <li><a href="#" style="color: #5C5C5C;">아울렛</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img src="img/mainLogo.png"></a>
+        </div>
+        <div class="info">
+            <ul>
+                <li><button id="loginBtn">LOG IN</button></li>
+                <li><button id="joinusBtn">JOIN US</button></li>
+                <li><img src="img/user.png" id="userBtn"></li>
+                <li><img src="img/search.png" id="searhBtn"></li>
+            </ul>
+            <div class="line"></div>
+            <div class="memberBtn">
+                <a href="#"><img class="member" src="img/member.png"></a>
+                <p>회원인증</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="info">
+        <div id="mainImg">
+            <img id="productImg" src="img/autehntic/해피유니폼.jpg">
+        </div>
+        <div class="productInfo">
+            <div id="productMain">
+                <div id="productName">두산베어스 어센틱 해피 유니폼</div>
+                <div id="heart"><img src="img/heartEmpty.png"></div>
+            </div>
+            <div id="price">90,000원</div>
+            <table class="option">
+                <tr>
+                    <td class="markingName">마킹추가</td>
+                    <td>
+                        <select class="select">
+                            <option value="none">마킹추가 선택</option>
+                            <option value="31">정수빈</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="markingName" style="color: #DF6060;">기타마킹</td>
+                    <td>
+                        <span id="markingContent">마킹추가에 없는 선수&개인마킹은 아래 배번 및 이름 꼭 기재 바랍니다.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="markingName">배번</td>
+                    <td>
+                        <input type="text" class="inputBox">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="markingName">이름</td>
+                    <td>
+                        <input type="text" class="inputBox">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="markingName">사이즈</td>
+                    <td>
+                        <select class="select">
+                            <option value="none">사이즈 선택</option>
+                            <option value="100s">100</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <div class="resultBtn">
+                <button id="buy">바로 구매하기</button>
+                <button id="bucket">장바구니</button>
+            </div>
+        </div> 
+    </div>
+</body>
+
+</html>
+
+<!-- <?php
+if (isset($_GET['goods'])) {
+    $productNum = $_GET['goods'];
+
+    // echo "<h1>상품 번호: $productNum</h1>";
+} else {
+    echo "상품 정보를 가져오지 못했습니다.";
+}
+?> -->

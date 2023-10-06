@@ -135,4 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
+function moveToInfo(goods){
+    var URL = 'productInfo.php?goods='+encodeURIComponent(goods);
+    window.location.href=URL;
+}
